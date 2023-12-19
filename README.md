@@ -25,14 +25,14 @@
  
 
 | Count Sketch                                                                                                        | OneMinSketch                                                                                                                                  | Min Sketch                                                                                                         |
-| :---                                                                                                                |     :---:                                                                                                                                     |                                                                                                               ---: |
+| :---:                                                                                                               |     :---:                                                                                                                                     |                                                                                                              :---: |
 |![Count_sketch_9](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/528e8856-cf19-4989-acca-67f2e025238b) | ![Custom_sketch_9](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/1b2738c1-2915-4367-afc4-6565516746ca) | ![Min_sketch_9](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/34823775-e4f7-40fa-9589-5998dad830df) |
-| When R=2^9                                                                                                          |  When R=2^9                                                                                                                                   |  When R=2^9                                                                                                   ---: |
+| When R=2^9                                                                                                          |  When R=2^9                                                                                                                                   |  When R=2^9                                                                                                        |
 
 
-
-
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+- The loss for all the heavy hitters are tend to zero across all the sketches
+- If we observe the upper range of the various sketches:
+  - Min-sketch : ~80,000
+  - Count-sketch : ~ 40,000
+  - Custom-Sketch : ~ ~17,500
+- Another observation is how different the variance of the error for infrequent and random hitters are for the Custom sketch(OneMinSketch) as opposed to that of Min-Sketch and Count-Sketch
