@@ -57,9 +57,7 @@
 - The variance of the error for the infrequent and random keys for the custom sketch is more spread across relative to the previous graphs
 - In general, range of the Custom-sketch is much lower than the Min-sketch and Count-sketch. Although, the majority of the error tends to go to the
 extremes
-![MAE_freq](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/8e241cca-491d-40c6-b711-5c93b669d238)
-![MAE_infreq](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/3057c0af-0103-4315-a8d8-d960138c23ad)
-![MAE_rand](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/02adce66-8eec-482f-84f3-91107846fd7a)
+
 
 
 
@@ -69,8 +67,10 @@ extremes
 
 
 *The observed trends persist across all R values, as depicted in the Mean Absolute Error (MAE) plot for R values [9, 10, 11, 12, 14, 18]. Notably, Custom-Sketch closely mirrors Count-Sketch in terms of MAE. Particularly intriguing is the significant superiority of Custom-Sketch over Min-Sketch and slight advantage over Count-Sketch for Heavy-hitters when R is small.Conversely, for random and infrequent hitters, the MAE curves of Custom-Sketch and Count-Sketch align closely.*
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/73273afe-d4e0-4b2b-942e-6d3487f891e2">
+</p>
 
-![Intersection of Top-500 vs  Actual Top-100](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/73273afe-d4e0-4b2b-942e-6d3487f891e2)
 
 - Another useful trait of sketches is keeping track of the top-n hitters
 - Hence, the above graph is the number of top-500 hitters in the sketch that are the actual top 100 hitters across all R values
