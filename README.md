@@ -36,3 +36,12 @@
   - Count-sketch : ~ 40,000
   - Custom-Sketch : ~ ~17,500
 - Another observation is how different the variance of the error for infrequent and random hitters are for the Custom sketch(OneMinSketch) as opposed to that of Min-Sketch and Count-Sketch
+
+
+
+
+
+| Count Sketch                                                                                                        | OneMinSketch                                                                                                                                  | Min Sketch                                                                                                         |
+| :---:                                                                                                               |     :---:                                                                                                                                     |                                                                                                              :---: |
+|![Count_sketch_10](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/63f093bb-dafc-44c1-ad05-0f127c697a9a)| ![Custom_sketch_10](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/5d5a6d3a-2a12-48bf-b679-422207ae4feb) |![Min_sketch_10](https://github.com/Jeffrey-Joan/OneMinSketch/assets/57098615/6443c3df-68e3-4b79-9f12-26d1eea5e5d2) |
+| When R=2^10                                                                                                         |  When R=2^10                                                                                                                                  |  When R=2^10                                                                                                       |
