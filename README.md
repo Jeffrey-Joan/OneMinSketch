@@ -1,8 +1,9 @@
 # OneMinSketch
-**What if we only update the minimum hash among all k options in Count-Min Sketch ?**
+**What if we only update the minimum hash among all k options in Count-Min Sketch in a single dimension array?**
 
 - This would reduce the number of updates that are applied to every counter-
 - Which could potentially reduce the impact of collisions
+- Now we also use only one array like bloom filter. So space complexity is reduced by k-times
 - To test out this modified sketch we run several experiments
 
 ## Experiment
